@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "ykupreyeu"
+        },
+        "hostingPlanName": {
+            "value": "NE-S1-service-plan"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "North Europe"
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "skuCode": {
+            "value": "S1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "Azure_mentoring"
+        },
+        "subscriptionId": {
+            "value": "dcdf604a-f3bb-46e5-900c-007d71bd8227"
+        }
+    }
+}
