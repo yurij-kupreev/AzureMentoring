@@ -16,6 +16,10 @@ namespace BookStore.Controllers
         {
             // получаем из бд все объекты Book
             IEnumerable<Book> books = db.Books;
+
+            var message = "Hello from Home Controller!";
+            ViewBag.Message = message;
+
             return View(books);
         }
 
